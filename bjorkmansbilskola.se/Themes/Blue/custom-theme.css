@@ -1,0 +1,461 @@
+﻿ body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #fff;
+    
+    background-image: url("../../themes/blue/img/bg.png");
+    background-repeat:no-repeat;
+    margin:0;
+}
+
+h1,h2,h3,h4,a{color:#333;}
+.footer-block h3 {
+    font-size: 1.4em;
+}
+.footer-block h1, .footer-block h2, .footer-block h3, .footer-block h4 {
+    color: #fff !Important;
+}
+a, a:hover {color:#1082c6;}
+label {
+    font-weight: normal;
+}
+ /*Hidden servername in footer, also in str.css*/
+.servername { color:#1082c6}
+
+ /*Hidden servername in footer, also in str.css*/
+.servername { color:#fff;}
+
+ .wrapper {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    position:relative;
+    z-index:2;
+ }
+
+ /*.wrap-header {
+    background-color: #1082c6;
+    background: -moz-linear-gradient(center top , #006cac 0%, #006cac 53%, #1082c6 53%, #1082c6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 173px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}*/
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Header                                          */
+ /* Colors are found in bootsrap-theme.css          */
+ /*                                                 */
+ /* ----------------------------------------------- */
+
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Footer                                          */
+ /*                                                 */
+ /* ----------------------------------------------- */
+footer {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    border-top:1px solid #999999;
+}
+.top-footer {padding:20px;  background-image: url("../../themes/blue/img/footer-bg.png");}
+top-footer, .bottom-footer  a {color: #fff;}
+top-footer a:hover {color: #efefef;}
+.bottom-footer {background: #1082c4;}
+footer{padding:0px;}
+.footer-block-freetext
+{
+     background:#006cac;
+     -moz-border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -khtml-border-radius: 15px;
+     border-radius: 15px;
+}
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Main content section                            */
+ /*                                                 */
+ /* ----------------------------------------------- */
+#content-area {margin-bottom:20px;}
+
+/* News list */
+
+
+
+/* ------------------------------------------------ */
+/*                                                  */
+/* Mobile menu                                      */         
+/*                                                  */
+/* ------------------------------------------------ */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#0D679D;}
+@media (max-width: 750px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#fff!Important;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{color:#fff!Important;}
+}
+
+/* ------------------------------------------------ */
+/*                                                  */
+/* Left menu                                        */
+/*                                                  */
+/* ------------------------------------------------ */
+div#left-menu-container {border:1px #1082C6 solid;margin:0px 10px 20px 10px;background:#f8f8f8;}
+ul#left-menu{list-style-type:none;margin:0px;padding:0px;}
+ul#left-menu li {padding:2px 5px;}
+ul#left-menu .menu-header{background:#1082C6;padding-left:25px;font-weight:bold;color:white;}
+
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Image slider                                          */
+ /*                                                 */
+ /* ----------------------------------------------- */
+.flexslider .caption {
+    background: url("../../themes/blue/img/caption-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.flex-direction-nav a {
+    background: url("../../themes/blue/img/bg_direction_nav.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.flex-pauseplay .flex-pause, .flex-pauseplay .flex-play {
+    background: url("../../themes/blue/img/pauseplay.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.flex-control-paging li a:hover {
+    background: none repeat scroll 0 0 #1B7EBB;
+    
+}
+.flex-control-paging li a.flex-active {
+    background: none repeat scroll 0 0 #1B7EBB;
+    cursor: default;
+}
+
+/* Dropdown */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {background: #006cac;}
+.navbar-nav li.selected { background-color: #006cac;}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover { background-color: #006cac; color:#fff;}
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Left sub menu                                   */
+ /*                                                 */
+ /* ----------------------------------------------- */
+ .sub-nav-list li.active > a {
+    background: none repeat scroll 0 0 #1082c6;
+    color: #FFFFFF;
+}
+ .sub-nav-list li a {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(34, 34, 34, 0.25);
+    color: #333 !Important;
+    font-family: "OpenSansSemibold",Arial,sans-serif;
+    font-size: 0.875em;
+}
+ .sub-nav-list li a:after {
+    color: #428bca;
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 1em;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+ .sub-nav-list li a:hover {
+    background: none repeat scroll 0 0 #1082c6;
+    color: #FFFFFF !Important;
+} 
+.sub-nav-list li a:hover:after {
+    background: none repeat scroll 0 0 #1082c6;
+    color: #FFFFFF;
+} 
+.sub-nav-list li.active a {
+    color: #FFFFFF !Important;
+}
+.sub-nav-list li.active a:after {
+    color: #FFFFFF;
+}
+.sub-nav-list li.subitem > a {
+    background: none repeat scroll 0 0 #eaeaea;
+    color: #333 !Important;
+    padding-left:30px;
+}
+.sub-nav-list li.subitem a:hover {
+    background: none repeat scroll 0 0 #1082c6;
+    color: #fff !Important;
+} 
+.sub-nav-list li.subitemactive.active > a {
+    background: none repeat scroll 0 0 eaeaea;
+    color: #FFFFFF;
+}
+.sub-nav-list li.subitemactive > a {
+    background: none repeat scroll 0 0 #eaeaea;
+    color: #333;
+    padding-left:30px;
+}
+.sub-nav-list li.subitemactive a:hover {
+    background: none repeat scroll 0 0 #1082c6;
+    color: #fff;
+} 
+.nav-area .sub-nav-block h2 {
+    font-size:1.2em;
+    border-bottom:1px solid #999;
+    border-right:1px solid #999;
+    text-transform:uppercase;
+    background: none repeat scroll 0 0 #1082c6;
+}
+.nav-area .sub-nav-block h2 a {
+        color:#fff !Important;
+    }
+.nav-area h2.title a {
+    color: #fff;
+    display: block;
+    outline: 0 none;
+    padding: 0.5em 10px;
+    text-decoration: none;
+}
+
+
+ /* ----------------------------------------------- */
+ /*                                                 */
+ /* Puff                                            */
+ /*                                                 */
+ /* ----------------------------------------------- */
+ .rightcol .puff-content {
+     margin-right:25px;
+}
+.puff-content  {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 0 10px #d0d0d0;
+    display: block;
+    margin-bottom: 1.5em;
+    margin-left:0.8em;
+    margin-top:0.8em;
+    margin-right:0.5em;
+    /*padding: 10px;*/
+    position: relative;
+    text-decoration: none;
+    height:305px;
+    margin-bottom:10px !Important;
+}
+    .puff-content:hover {
+        border:1px #1082C6 solid;
+        box-shadow: 0 0 0 10px #1082c6;
+        text-decoration:none;
+        color:#000;
+        
+    }
+    .puff-content h2 {
+        padding-top:5px !Important;
+        margin-top:5px !Important;
+    color: #1082c6;
+}
+    .puff-content p {
+   
+    }
+    .puff-bottom {
+        height:10px;
+    }
+    .videowrapper {
+        
+    }
+
+
+
+ /* ----------------------------------------------- */
+/*                                                 */
+/* E-commerce                                      */
+/*                                                 */
+/* ----------------------------------------------- */
+
+/*Sub menu to the left*/
+.ecommerce-sub-menu h2 a {
+    color:#fff !Important;
+}
+/*Page header*/
+.ecommerce-content h1 {
+    color:#333 !Important;
+    padding-bottom:5px;
+}
+/*item in shopping basket*/
+.e-checkout-item {
+    background-color:#eeeeee;
+}
+/*Total sum in shopping basket*/
+.checkoutsum {
+    font-weight:bold;
+    padding-bottom:10px;
+}
+/*Puff on product list, i.e. start page*/
+   .puff-ecom img {
+    display: block;
+    float: left;
+    margin-bottom: 0.5em;
+    margin-right: 15px;
+    position: relative;
+}
+  .puff-ecom  {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #999;
+    border-radius: 4px;
+    -moz-box-shadow: 5px 5px 2px #888;
+    -webkit-box-shadow: 5px 2px 5px #888;
+    box-shadow: 5px 5px 2px #888;
+    display: block;
+    margin:0 !Important;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+    .puff-ecom:hover {
+        border:1px solid #1082c6;
+        -moz-box-shadow: 5px 5px 2px #ccc;
+    -webkit-box-shadow: 5px 2px 5px #ccc;
+    box-shadow: 5px 5px 2px #1082c6;
+    }
+
+ /*Row on course and product list*/
+ .e-top a {
+    color:#333;
+}
+ /*Toogle on course list f*/
+ .e-courses-cat i {
+    color:#1082c6;
+}
+ /*Top menu on ecommerce page*/
+.nav-pills > li.inactive > a {
+    background-color: #1082c6;
+    color:#fff !Important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .nav-pills > li.inactive > a:hover {
+    background-color: #0d659b !Important;
+}
+/*Shopping basket and order box, e.g on product and package detail page*/
+.bg-info {
+    background-color: #1082c6;
+}
+/*Order row in shopping basket (to the left)*/
+.shoppingbasketrow {
+    color:#000;
+}
+/*Button colors*/
+.btn-primary, .bg-info {
+    color:#fff !Important;
+}
+.btn-success {
+    color:#fff !Important;
+}
+.btn-info {
+    color:#fff !Important;
+}
+a.btn:hover {
+    color:#FFF !Important;
+}
+/*Course booking dialogue*/
+.modaldialoguediv {
+    border-color:#1082c6;
+}
+
+/* ----------------------------------------------- */
+/*                                                 */
+/* E-commerce wizard steps                         */
+/*                                                 */
+/* ----------------------------------------------- */
+
+/* = DEFAULT STEPS
+----------------------------*/
+.wizard-steps a {
+    background: #f4f4f4;
+}
+.wizard-steps a:before {
+    border-top-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+    border-left-color: transparent;
+}
+.wizard-steps a:after {
+    border-left-color: #f4f4f4;
+}
+ .wizard-steps a:hover {
+    color:#666 !Important;
+}
+/* = COMPLETED STEPS
+----------------------------*/
+ 
+.wizard-steps .completed-step a {
+    color:#fff !Important;
+    background: #1082c6;
+}
+.wizard-steps .completed-step a:before {
+    border-top-color: #1082c6;
+    border-bottom-color: #1082c6;
+}
+.wizard-steps .completed-step a:after {
+    border-left-color: #1082c6;
+}
+.wizard-steps .completed-step span {
+    border-color: #ccc;
+    color: #be0d15;
+    text-shadow:none;
+}
+/* = ACTIVE STEPS
+----------------------------*/
+.wizard-steps .active-step a {
+    color:#fff !Important;
+    background: #c12e2a;
+}
+.wizard-steps .active-step a:before {
+    border-top-color: #c12e2a;
+    border-bottom-color: #c12e2a;
+}
+.wizard-steps .active-step a:after {
+    border-left-color: #c12e2a;
+}
+.wizard-steps .active-step span {
+    color: #163038;
+    -webkit-box-shadow:0px 0px 2px rgba(0,0,0, 0.8);
+    -moz-box-shadow:0px 0px 2px rgba(0,0,0, 0.8);
+    text-shadow:none;
+    border: 2px solid #ccc;
+}
+/* = HOVER STATES
+----------------------------*/
+.wizard-steps .completed-step:hover a, .wizard-steps .active-step:hover a {
+    color:#fff;
+    background: #be0d15;
+    /*text-shadow:1px 1px 1px rgba(0,0,0, 0.8);*/
+}
+.wizard-steps .completed-step:hover span, .wizard-steps .active-step:hover span {
+    color:#8F061E;
+}
+.wizard-steps .completed-step:hover a:before, .wizard-steps .active-step:hover a:before {
+    border-top-color: #be0d15;
+    border-bottom-color: #be0d15;
+}
+.wizard-steps .completed-step:hover a:after, .wizard-steps .active-step:hover a:after {
+    border-left-color: #be0d15;
+}
+
+/*Ecommerce condition menu*/
+@media (max-width: 990px) {
+
+    .ecommerce-sub-heading h2 {
+        background: none repeat scroll 0 0 #EAEAEA !Important;
+    }
+    .ecommerce-sub-heading h2 a {
+        color:#000 !Important;
+    }
+    .ecommerce-sub-toogle {
+        display:block;
+        float:right;
+        color:#000 !Important;
+        padding:10px 10px 0 0;
+            content: "\f13a";
+    }
+    .nav-area .sub-nav-block h2 a {
+        color:#000 !Important;
+    }
+}

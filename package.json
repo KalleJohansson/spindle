@@ -1,0 +1,6 @@
+{
+	"name": "crape",
+	"scripts": {
+		"scrape": "node scrape.js"
+	}
+}

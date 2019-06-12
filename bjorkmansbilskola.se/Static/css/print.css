@@ -1,0 +1,19 @@
+﻿.wrapper {
+    border:0 !Important;
+}
+.hidePrint {
+    display:none;
+}
+.btn {
+    display:none;
+}
+.wrapper {
+    background: white;
+    border:0;;
+    padding-bottom:0;
+}
+
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
