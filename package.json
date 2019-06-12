@@ -1,6 +1,10 @@
 {
 	"name": "crape",
 	"scripts": {
-		"scrape": "node scrape.js"
+		"spindle": "node spindle.js"
+	},
+	"dependencies": {
+		"website-scraper": "^4.0.1",
+		"website-scraper-puppeteer": "^0.1.1"
 	}
 }
